@@ -1,0 +1,59 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 4em;
+  border-width: .2em;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 100vh;
+}
+
+
+header.startup h1 {
+  font-size: 2rem; 
+  letter-spacing: .5rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 8rem;
+}
+
+.btn-xl {
+  padding: 1rem 1rem; 
+  font-family: cursive;
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  

@@ -1,0 +1,72 @@
+.root{font-size: 16px;}
+html.body{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", "sans serif";
+	font-weight: 400;
+}
+.navbar-expand-lg{
+	width: 100%;
+	background-color: #008D00;
+	font-family: cursive;
+}
+.Profile{
+	margin-left: 4.5rem;
+	margin-top: 1rem;
+	color: green;
+	font-weight: 500;
+	font-size: 3rem;
+
+}
+#file{
+	margin-top: 1rem;
+	margin-left: 8rem;
+	color: green;
+}
+.collapse ul.navbar-nav>li.nav-item>a{
+	color: black;
+}
+.pc{
+background-color: black;
+margin-top: 1rem;
+}
+.rounded-circle{
+	width: 12vmax;
+	height: 11vmax;
+	position: relative;
+	
+	margin-left: 7rem;
+	margin-top: 1rem;
+}
+.welpage{
+	font-family: cursive;
+	font-size: 6rem;
+	font-weight: 500;
+	margin-top: 14rem;
+	color: white;
+	text-shadow: 2px 4px green;
+	transform: skewX(40deg);
+	word-spacing: 1rem;
+	letter-spacing: 1rem;
+	left: 9rem;
+}
+.reply{
+	color:green;
+}
+#image{
+	width: 100vw;
+	height: 100vh;
+	background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffZSrioashmxjeZeayDrFd-_A90eAk8hDTm5GuOJ1r8vqv8x9') 60% 60%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.margin{
+	margin-top: 1rem;
+}
+.bg-dark{
+background-color: #e3eaa7;
+}
+.about{
+	
+}

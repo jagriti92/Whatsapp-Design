@@ -1,0 +1,175 @@
+root:{
+	font-size: 16px;
+}
+html.body{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Lato", "sans serif";
+	font-weight: 400;
+}
+.navbar-expand-lg{
+	width: 100%;
+	background-color: #1B079B;
+	font-family: cursive;
+}
+.rounded-circle{
+	width: 5vmax;
+	height: 4vmax;
+	position: relative;
+	perspective: 100px;
+}
+.name {
+	display: inline-flex;
+	font-family: cursive; 
+	color: #eeac99;
+	text-shadow: 2px 2px #e06377;
+	font-size: 2rem;
+}
+input[type=text] {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #FFFAF0;
+    border-color: #f4a688;
+    border-style: dashed;
+    text-align: center;
+	font-family: cursive;
+	font-weight: 600;
+}
+input[type=text]:focus {
+	color: #1B079B;
+    background-color: #f4a688;
+}
+.fun h1{
+	text-align: center;
+	margin-top: 12rem;
+	font-weight: 1000;
+	font-size: 5rem;
+	transform: skewY(130deg);
+	word-spacing: .5rem;
+	text-shadow: 2px 2px #FFFFFF;
+}
+#first{
+background: url('../images/back.jpg') 40% 40%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.listname{
+	color: #011A52;
+	text-shadow: 1px 2px #800000;
+}
+.mb-1 .text{
+	color: #190154;
+}
+.Scroller{
+	height: 89vh;
+	overflow-y: scroll;
+}
+.Friends,.ActiveUsers {
+background-color: #1B079B;
+color: #FFFFFF;
+font-family: cursive;    
+}
+.UnreadMessages{
+background-color: #1B079B;
+text-align: center;
+color: #FFFFFF;
+font-family: cursive;
+}
+
+.Chat{
+background-color: #1B079B;
+color: #FFFFFF;
+font-family: cursive;
+}
+.bordercolumn{
+	border-bottom: dotted;
+	border-color: #f4a688;
+}
+.Aashnamessage{
+	text-align: left;
+	color: #FFFFFF;
+}
+.time{
+	color: #FFFFFF;
+}
+.textpadding1{
+	margin-top: 1rem;
+	margin-right: 9rem;
+}
+.textpadding2{
+	margin-top: 1rem;
+	margin-left: 10rem;
+	background-color: #686256;
+}
+.image{
+	margin-right: 1rem;
+}
+.d-sm-none .d-md-block {
+	display:none;
+}
+.d-none .d-sm-block{
+	display: none;
+}
+.smileyicon{
+	width: 3vmax;
+	height: 3vmax;
+	margin-left: 1rem;
+	margin-top: 8rem;
+}
+.btn{
+	margin-top: 8rem;
+	font-family: cursive;
+	background-color: #1B079B;
+	color: #FFFFFF;
+}
+.messagearea{
+	margin-top: 8rem;
+	text-align: center;
+	font-family: cursive;
+	border-color: #E9967A;
+	color: #190154;
+	font-weight: 400;
+}
+.col-10{
+	padding-top: 1em;
+}
+.col-10 span{
+	position: absolute;
+	top: 2em;
+	left: 6em;
+	font-weight: 900;
+	color: #f9ccac;
+	text-shadow: 2px 2px #800000 ;
+}
+#dot{
+	margin-left: 7em;
+	width: 10px;
+	height: 10px;
+}
+.Aashnatext{
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: #190154;
+}
+.d-sm-none{
+	display: none;
+}
+@media screen and (max-width: 480px){
+	.JagritiName{
+		font-size: 1.3rem;
+		padding-top: .5rem;
+	}
+	.smileyicon{
+		visibility: hidden;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+	.JagritiName{
+		font-size: 1.8rem;
+		padding-top: .5rem;
+	}
+}
